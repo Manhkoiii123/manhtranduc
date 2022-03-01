@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ví dụ 3</title>        
+    </head>
+    <body>
+        <table width="100%">
+            <tr >
+                
+
+                <td >
+                    
+                      <table width="1024" align="center">
+                          <tr>
+                              <td width="30%" align="center">
+                                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSU
+                                  hEUgAAAOIAAADfCAMAAADcKv+WAAAAgVBMVEX///8QX60AU6gA
+                                  T6cAWqsAUagAXKwAWKoAVanJ1ugATaYATKZmjcL4+vzd5O/u8viAn8tHerlr
+                                  kMOittbm7fWIo82sv9u9zOJQf7s1b7S2x+BDdrcnabIaZK95mshZhL6SrNHf
+                                  5/HT3ezG0+YARaOovNqXr9NylcYAPqGVrtIubLIG124PAAASIUlEQVR4nO2di
+                                  ZKqOBRAyUISQURFxX3BbV7//wdOAgTCkrSC0jbVt2pqfAo0h4SbuyWxQO/F+uk
+                                  beL/8IfZBEkTYU8kRodVTgX+IPZA/xD7IH2If5A+xRqIoeusdvVyeRry70B2/955eLM8iLmwAAVq/+a5
+                                  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" alt="ảnh đại học xây dựng hà nội">
+                              </td>
+                              <td width="70%" align="center">
+                                  <h1 >
+                                      <font color="red">
+                                              ĐẠI HỌC XÂY DỰNG HÀ NỘI
+                                      </font>
+                                  </h1>
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td colspan="2">
+                                  <table width="1024" bgcolor="yellow">
+                                         <tr>
+                                             <td align="center">
+                                                 <font color="black">
+                                                     <b>
+                                                        trang chủ
+                                                     </b>
+                                                 </font>
+                                             </td>
+                                             <td align="center">
+                                                <font color="black">
+                                                    <b>
+                                                       khoa cntt
+                                                     </b>
+                                                </font>
+                                            </td>
+                                            <td align="center">
+                                                <font color="black">
+                                                    <b>
+                                                        lãnh đạo
+                                                     </b>
+                                                </font>
+                                            </td>
+                                            <td align="center">
+                                                <font color="black">
+                                                    <b>
+                                                        liên hệ
+                                                     </b>
+                                                </font>
+                                            </td>
+                                         </tr>
+
+                                  </table>
+                              </td>
+                          </tr>
+
+
+                          
+
+                          <tr>
+                              <td colspan="2" size="5">
+                                  <font color="red">
+                                      <h2>Kế Hoạch Hoạt Động</h2>
+                                  </font>
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <table width="70%" align="center">
+                                  <tr>
+                                      <td width="10%" align="center">
+                                          <img src="https://hoaro.github.io/html/Buoi3-HTML/Image/anh1.jpg">
+                                          <br>
+                                          <font size="5">
+                                              <b>
+                                                  dăm ba cái web dạo
+                                              </b>
+                                          </font>
+                                      </td>
+
+                                      <td>
+                                          <table width="100%">
+                                              <tr>
+                                                  <td>
+                                                    <img src="./Image/anh2.jpg" width="100px" align="center">
+                                                  </td>
+                                                  <td>
+                                                      <font size="5">
+                                                        <a href="https://tac.haui.edu.vn/vn/ke-hoach/tap-huan-cac-hoat-dong-kiem-dinh-chuong-trinh-dao-tao-dai-hoc-da-nang/63240">
+                                                            Tập huấn các hoạt động kiểm định 
+                                                            <br>
+                                                            của chương trình đào tạo - Đại Học Đà Nẵng
+                                                            </a>
+                                                      </font>
+                                                  </td>
+                                              </tr>
+
+                                              <tr>
+                                                <td>
+                                                  <img src="./Image/anh2.jpg" width="100px">
+                                                </td>
+                                                <td>
+                                                    <font size="5">
+                                                      <a href="https://tac.haui.edu.vn/vn/ke-hoach/tap-huan-cac-hoat-dong-kiem-dinh-chuong-trinh-dao-tao-dai-hoc-da-nang/63240">
+                                                          Tập huấn các hoạt động kiểm định 
+                                                          <br>
+                                                          của chương trình đào tạo - Đại Học Đà Nẵng
+                                                          </a>
+                                                    </font>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                  <img src="./Image/anh2.jpg" width="100px">
+                                                </td>
+                                                <td>
+                                                    <font size="5">
+                                                      <a href="https://tac.haui.edu.vn/vn/ke-hoach/tap-huan-cac-hoat-dong-kiem-dinh-chuong-trinh-dao-tao-dai-hoc-da-nang/63240">
+                                                          Tập huấn các hoạt động kiểm định 
+                                                          <br>
+                                                          của chương trình đào tạo - Đại Học Đà Nẵng
+                                                          </a>
+                                                    </font>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                  <img src="./Image/anh2.jpg" width="100px">
+                                                </td>
+                                                <td>
+                                                    <font size="5">
+                                                      <a href="https://tac.haui.edu.vn/vn/ke-hoach/tap-huan-cac-hoat-dong-kiem-dinh-chuong-trinh-dao-tao-dai-hoc-da-nang/63240">
+                                                          Tập huấn các hoạt động kiểm định 
+                                                          <br>
+                                                          của chương trình đào tạo - Đại Học Đà Nẵng
+                                                          </a>
+                                                    </font>
+                                                </td>
+                                            </tr>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </table>
+                            </tr>
+                      </table>
+                </td>
+                
+            </tr>
+        </table>
+    </body>
+</html>
