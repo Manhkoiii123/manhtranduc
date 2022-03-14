@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+int change[1000];
+string solve(string s,int change[],int n)
+{
+	bool check = false;
+	for (int i = 0; i < s.length(); i++){
+		char n=s[i]-'0';
+		if (n < change[n]) {
+			s[i] = change[n]+'0';
+			check = true;
+		}
+		else {
+			if (check == true) {
+				break;
+			}
+		}
+	}
+	return s;
+}
+
+int main() {
+	string s;
+	cin >> s;
+	int n;
+	cin >> n;
+	int c[n];
+	for (int i = 0; i < n; i++) {
+		cin >> c[i];
+	}
+
+	cout << solve(s, c,n) << endl;
+}
